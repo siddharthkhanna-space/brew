@@ -1,3 +1,7 @@
+import { Caveat } from "next/font/google";
+
+const caveat = Caveat({ subsets: ["latin"], weight: ["700"] });
+
 const steps = [
   {
     number: "01",
@@ -22,21 +26,13 @@ const steps = [
 export default function Home() {
   return (
     <main>
-      <header className="nav">
-        <div className="nav-inner">
-          <span className="brand">
-            <span className="brand-mark">☕</span> Brew My Coffee
-          </span>
-          <a className="nav-link" href="#how-it-works">
-            How it works
-          </a>
-        </div>
-      </header>
-
-      <section className="hero">
+      <section
+        className="hero"
+        style={{ backgroundImage: "url(/coffee-hero.jpg)" }}
+      >
         <div className="hero-inner">
           <p className="eyebrow">Small-batch &middot; Fresh roasted</p>
-          <h1>Brew My Coffee</h1>
+          <h1 className={`hero-title ${caveat.className}`}>brew my coffee</h1>
           <p className="hero-subtitle">
             Coffee brewed with intention — sourced, roasted, and shipped so
             it's always at its best in your cup.
@@ -51,6 +47,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <div className="sticky-title">
+        <span className={caveat.className}>brew my coffee</span>
+      </div>
 
       <section id="how-it-works" className="steps">
         <h2>How it works</h2>

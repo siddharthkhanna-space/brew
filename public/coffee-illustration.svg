@@ -1,0 +1,61 @@
+<svg viewBox="0 0 520 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A cup of coffee with steam, surrounded by spilled coffee beans">
+  <defs>
+    <linearGradient id="cupBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffaf3"/>
+      <stop offset="100%" stop-color="#f4e8d8"/>
+    </linearGradient>
+    <linearGradient id="coffeeSurface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b4327"/>
+      <stop offset="100%" stop-color="#3b2418"/>
+    </linearGradient>
+    <radialGradient id="beanShine" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#7a4d2c"/>
+      <stop offset="100%" stop-color="#3b2418"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="260" cy="345" rx="170" ry="16" fill="#3b2418" opacity="0.08"/>
+
+  <g opacity="0.55">
+    <path d="M205 95 C195 65 210 40 195 15" fill="none" stroke="#c08552" stroke-width="7" stroke-linecap="round"/>
+    <path d="M245 100 C233 68 252 42 238 12" fill="none" stroke="#c08552" stroke-width="7" stroke-linecap="round"/>
+    <path d="M285 95 C275 65 292 42 280 18" fill="none" stroke="#c08552" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <path d="M155 150 h190 l-14 130 a26 26 0 0 1 -26 24 h-110 a26 26 0 0 1 -26 -24 z" fill="url(#cupBody)" stroke="#5c3a24" stroke-width="4"/>
+  <ellipse cx="250" cy="150" rx="95" ry="16" fill="url(#coffeeSurface)"/>
+  <ellipse cx="250" cy="150" rx="95" ry="16" fill="none" stroke="#5c3a24" stroke-width="4"/>
+
+  <path d="M345 168 c34 -4 56 18 52 46 c-4 30 -34 44 -62 38 l4 -22 c16 4 32 -4 34 -20 c2 -14 -8 -24 -24 -22 z" fill="url(#cupBody)" stroke="#5c3a24" stroke-width="4"/>
+
+  <g stroke="#5c3a24" stroke-width="3" opacity="0.35">
+    <path d="M175 175 q75 30 150 0" fill="none"/>
+    <path d="M180 205 q70 24 140 0" fill="none"/>
+  </g>
+
+  <g>
+    <ellipse cx="90" cy="270" rx="20" ry="13" fill="url(#beanShine)" transform="rotate(-18 90 270)"/>
+    <path d="M90 259 q7 11 0 22" fill="none" stroke="#f4e8d8" stroke-width="2" transform="rotate(-18 90 270)"/>
+
+    <ellipse cx="130" cy="310" rx="17" ry="11" fill="url(#beanShine)" transform="rotate(12 130 310)"/>
+    <path d="M130 300 q6 10 0 20" fill="none" stroke="#f4e8d8" stroke-width="2" transform="rotate(12 130 310)"/>
+
+    <ellipse cx="60" cy="320" rx="15" ry="10" fill="url(#beanShine)" transform="rotate(-35 60 320)"/>
+    <path d="M60 311 q5 9 0 18" fill="none" stroke="#f4e8d8" stroke-width="2" transform="rotate(-35 60 320)"/>
+
+    <ellipse cx="400" cy="285" rx="18" ry="12" fill="url(#beanShine)" transform="rotate(25 400 285)"/>
+    <path d="M400 275 q6 10 0 20" fill="none" stroke="#f4e8d8" stroke-width="2" transform="rotate(25 400 285)"/>
+
+    <ellipse cx="440" cy="320" rx="15" ry="10" fill="url(#beanShine)" transform="rotate(-10 440 320)"/>
+    <path d="M440 311 q5 9 0 18" fill="none" stroke="#f4e8d8" stroke-width="2" transform="rotate(-10 440 320)"/>
+
+    <ellipse cx="365" cy="335" rx="14" ry="9" fill="url(#beanShine)" transform="rotate(40 365 335)"/>
+    <path d="M365 327 q4 8 0 16" fill="none" stroke="#f4e8d8" stroke-width="2" transform="rotate(40 365 335)"/>
+
+    <ellipse cx="200" cy="345" rx="14" ry="9" fill="url(#beanShine)" transform="rotate(-22 200 345)"/>
+    <path d="M200 337 q4 8 0 16" fill="none" stroke="#f4e8d8" stroke-width="2" transform="rotate(-22 200 345)"/>
+
+    <ellipse cx="310" cy="350" rx="13" ry="8" fill="url(#beanShine)" transform="rotate(15 310 350)"/>
+    <path d="M310 343 q4 7 0 14" fill="none" stroke="#f4e8d8" stroke-width="2" transform="rotate(15 310 350)"/>
+  </g>
+</svg>
