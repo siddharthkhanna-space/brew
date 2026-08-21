@@ -1,6 +1,7 @@
 import { Caveat } from "next/font/google";
 import StickyTitle from "./StickyTitle";
 import StartBrewing from "./StartBrewing";
+import LeaveNote from "./LeaveNote";
 
 const caveat = Caveat({ subsets: ["latin"], weight: ["700"] });
 
@@ -117,6 +118,8 @@ export default function Home() {
       </section>
 
       <StartBrewing className={caveat.className} />
+
+      <LeaveNote className={caveat.className} />
 
       <footer className="footer">
         <p>&copy; {new Date().getFullYear()} Brew My Coffee. All rights reserved.</p>
